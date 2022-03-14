@@ -13,7 +13,7 @@ public class Google {
 	driver.get("https://www.google.com/");
 	WebElement Search = driver.findElement(By.name("q"));
 	Search.sendKeys("GreensTech");
-	
+	Search.sendKeys("GreensTech");
 	
 	}
 }
